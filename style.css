@@ -17,22 +17,22 @@ img {
 }
 
 /* Brightness of the images (for better parallax effect) */
-#parallax2 {
+#parallax1 {
   filter: brightness(80%);
 }
 
-#parallax3 {
+#parallax2 {
   filter: brightness(85%);
 }
 
-#parallax4 {
+#parallax3 {
   filter: brightness(90%);
 }
 
-#parallax5 {
+#parallax4 {
   filter: brightness(95%);
 }
 
-#parallax6 {
+#parallax5 {
   filter: brightness(100%);
 }
