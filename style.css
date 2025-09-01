@@ -3,34 +3,36 @@ body, html {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  background: #000;
+  overflow-x: scroll;               /*     This code enables     */
+  overflow-y: hidden;               /* horizontal scrolling only */
+  background: rgb(24, 70, 27);
 }
 
 img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 3787px;
+  width: 3787px;                    /* width of the images */
   max-height: 100%;
 }
 
-#parallax1 {
-  scale: 1.5;
-}
+/* Brightness of the images (for better parallax effect) */
 #parallax2 {
-  scale: 1.4;
+  filter: brightness(80%);
 }
+
 #parallax3 {
-  scale: 1.3;
+  filter: brightness(85%);
 }
+
 #parallax4 {
-  scale: 1.2;
+  filter: brightness(90%);
 }
+
 #parallax5 {
-  scale: 1.1;
+  filter: brightness(95%);
 }
+
 #parallax6 {
-  scale: 1;
+  filter: brightness(100%);
 }
